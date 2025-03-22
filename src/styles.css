@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    image-rendering: pixelated;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    overflow: hidden;
+    background-color: #003366;
+    color: #FFCC33;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC');
+    background-repeat: repeat;
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAACJocYTAAAA+UlEQVQoFY2SQY7DIAxFX6hCSDkBlSqNOlv13Lkxk8wmdFUuEJZppWZLaMy3/TFRVf3w+/H5JjMREfidnZuZKSLCzCmlmFIiIjIz7XU6Zyt1hV03OWd2CZgd+/FxKC+Mx+OB3ntfrffdOefhnHPOGftaKxHRqj23/WyXaQn0XotZL0Z/m8EmFkxrrarqW11oGLDGGOsXjWnmvQcRUUqJU0pqrTH51tq4Z0dKiXPObOb5V3QIxGdQC/gDiFLQ8Yv4AVAKOs7Ym3GpCg4Mb8ZaE7wfgXFVfVVRvWrGMSfDONoxtzZe7Prt+Dt57/jM7S81W/zP+vu85g8IfXgBk5nBnwAAAABJRU5ErkJggg=='), auto;
+}
+
+#gameCanvas {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border: 4px solid #663300;
+    border-radius: 0;
+    image-rendering: pixelated;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Add early 2000s UI elements */
+.game-container {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.game-title {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 2px 2px 0 #000000;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.instruction {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    border: 2px solid #FFCC33;
+    padding: 5px;
+    width: 70%;
+    margin: 10px auto;
+} 
